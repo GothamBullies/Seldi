@@ -5881,6 +5881,23 @@ section .team {
     background-color: grey;
 }
 
+.property-lists .pic-description {
+    min-height: 260px;
+    position:relative;
+    margin:15px;
+    padding:0;
+}
+
+.property-lists .pic-description h3{
+    height:50px;
+}
+
+.property-lists .pic-description .btn{
+    position:absolute;
+    bottom:0px;
+    z-index:100;
+}
+
 @media (min-width: 450px) {
     .leader {
         float: left;
