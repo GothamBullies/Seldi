@@ -271,12 +271,14 @@
     <Content Include="Assets\images1\who-we-are-bg.jpg" />
     <Content Include="Assets\images1\women-agent-2.jpg" />
     <Content Include="Assets\images1\women-agent.png" />
+    <Content Include="Assets\images\1.jpg" />
+    <Content Include="Assets\images\2.jpg" />
     <Content Include="Assets\images\Bob-Dean-2017.jpg" />
     <Content Include="Assets\images\Cindy-Powers-2017.jpg" />
     <Content Include="Assets\images\favicon.ico" />
     <Content Include="Assets\images\footer-365connect.png" />
+    <Content Include="Assets\images\living-room--apartment.jpg" />
     <Content Include="Assets\images\seldin_logo.png" />
-    <Content Include="Assets\images\sep_image1.jpg" />
     <Content Include="Assets\images\se_alicia.jpg" />
     <Content Include="Assets\js\bootstrap.min.js" />
     <Content Include="Assets\js\google-map.js" />
