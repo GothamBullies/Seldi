@@ -26,6 +26,12 @@
 
 </section>
 
+<section class="map-container">
+    <div class="container">
+        <div id="map"></div>
+    </div>
+</section>
+
 <section class="property-lists who-we-are">
 
     <div class="container">
@@ -125,3 +131,21 @@
 
 </section>
 
+@section scripts{
+    <script type="text/javascript">
+        function initMap() {
+            var dallas = { lat: 32.79398, lng: -96.765693 };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                center: dallas
+            });
+            var marker = new google.maps.Marker({
+                position: dallas,
+                map: map
+            });
+        }
+    </script>   
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpage3odvuUkQB8RBPYabsk7b99zYLS1k&callback=initMap">
+    </script>
+
+}
