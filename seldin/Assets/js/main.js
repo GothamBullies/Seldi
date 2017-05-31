@@ -25,7 +25,15 @@ $(document).ready(function () {
         paginationNumbers: true
 	});
 	new WOW().init();
-	
+	//Sticky Menu    
+    var pageWindow = $(window),
+        navbar = $('#my-navbar'),
+        topElement = navbar.offset().top;
+    console.log(topElement);
+
+    pageWindow.scroll(function () {
+        navbar.toggleClass('sticky', pageWindow.scrollTop() > topElement);
+    });
 	//Smooth Scroll
 	$('nav a[href*="#"]:not([href="#"])').click(function() {
 		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -33,7 +41,7 @@ $(document).ready(function () {
 		  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 		  if (target.length) {
 			$('html, body').animate({
-			  scrollTop: target.offset().top
+			  scrollTop: target.offset().top - navbar.height() + 1
 			}, 1000);
 			return false;
 		  }
