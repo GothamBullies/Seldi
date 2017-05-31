@@ -5861,6 +5861,17 @@ aside .widget-title {
 section .team {
 
 }
+
+.navbar-wrapper{
+    height: 65px;
+}
+#my-navbar.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
 @media (min-width: 450px) {
     .leader {
         float: left;
