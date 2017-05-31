@@ -273,6 +273,8 @@
     <Content Include="Assets\images1\women-agent.png" />
     <Content Include="Assets\images\1.jpg" />
     <Content Include="Assets\images\2.jpg" />
+    <Content Include="Assets\images\3.jpg" />
+    <Content Include="Assets\images\benefits.jpg" />
     <Content Include="Assets\images\Bob-Dean-2017.jpg" />
     <Content Include="Assets\images\Cindy-Powers-2017.jpg" />
     <Content Include="Assets\images\favicon.ico" />

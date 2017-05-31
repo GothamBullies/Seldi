@@ -4596,6 +4596,166 @@ a.who-we-are-btn:hover {
     margin-top: 15px !important;
 }
 
+
+
+
+
+.benefits {
+
+
+}
+
+div#SERVICES p {
+    padding-top: 0px !important;
+}
+
+
+.benefits .col-md-6 {
+
+    height: 500px;
+
+}
+
+
+
+.benefits-left {
+
+    background: #f5f5f5;
+
+}
+
+
+
+.benefits-right {
+
+    background: url(../images/benefits.jpg);
+
+    background-position: center center;
+
+    background-size: 130% auto;
+
+    background-repeat: no-repeat;
+
+}
+
+
+
+.benefits-content {
+
+    margin-left: 100px !important;
+
+    margin-right: 100px !important;
+
+    margin-top: 80px;
+
+    margin-bottom: 80px;
+
+    text-align: center;
+
+}
+
+
+
+.benefits-content > span {
+
+    font-size: 14px;
+
+    font-style: italic;
+
+}
+
+
+
+.benefits-content > h2 {
+
+    font-size: 45px;
+
+    font-weight: 800;
+
+    line-height: 58px;
+
+    margin-top: 5px;
+
+    position: relative;
+
+    padding-bottom: 15px;
+
+}
+
+
+
+.benefits-content > h2::after {
+
+    background: #046190;
+
+    bottom: 0;
+
+    content: "";
+
+    height: 2px;
+
+    left: 50%;
+
+    margin-left: -50px;
+
+    position: absolute;
+
+    width: 100px;
+
+}
+
+
+
+.benefits-content > p {
+
+    line-height: 35px;
+
+    margin-top: 25px;
+
+}
+
+
+
+a.benefits-btn {
+
+    background: #046190;
+
+    border-radius: 100px;
+
+    color: #fff;
+
+    display: inline-block;
+
+    margin-top: 25px;
+
+    padding: 10px 20px;
+
+    text-transform: uppercase;
+
+    -webkit-transition: 0.5s ease;
+
+    transition: 0.5s ease;
+
+}
+
+
+
+a.benefits-btn:hover {
+
+    text-decoration: none;
+
+    background: #727272;
+
+}
+
+.benefits-content .left {
+
+    margin-left: 13px !important;
+
+    margin-top: 15px !important;
+}
+
+
 .left h5 {
     line-height: 150%;
 }
