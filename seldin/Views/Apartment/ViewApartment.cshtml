@@ -54,7 +54,7 @@
                 </h1>
                 <br />
                 <div class="font-quote telephone text-left">
-                    <a href="@ViewBag.Models.telephone"><span><em class="fa fa-phone"></em></span> @ViewBag.Models.telephone</a>
+                    <a href="#"><span><em class="fa fa-phone"></em></span> @ViewBag.Models.telephone @if (ViewBag.Models.OfficeHours != "") {  <span><em class="fa fa-clock-o"></em></span> @ViewBag.Models.OfficeHours } </a>
                 </div>
                 <br />
                 <h5 class="font-quote font-semi-bold address text-left">
