@@ -2357,7 +2357,7 @@ figure.effect-zoe figcaption a:hover {
 
 .latest-pic3 {
 
-    background: url("../images1/lp3.jpg");
+    background: url("/Assets/images1/lp3.jpg");
 
     background-size: 110% 110%;
 
@@ -2375,7 +2375,7 @@ figure.effect-zoe figcaption a:hover {
 
 .latest-pic4 {
 
-    background: url("../images1/lp4.jpg");
+    background: url("/Assets/images1/lp4.jpg");
 
     background-size: 110% 110%;
 
@@ -2393,7 +2393,7 @@ figure.effect-zoe figcaption a:hover {
 
 .latest-pic5 {
 
-    background: url("../images1/lp5.jpg");
+    background: url("/Assets/images1/lp5.jpg");
 
     background-size: 110% 110%;
 
@@ -2411,7 +2411,7 @@ figure.effect-zoe figcaption a:hover {
 
 .latest-pic6 {
 
-    background: url("../images1/lp2.jpg");
+    background: url("/Assets/images1/lp2.jpg");
 
     background-size: 110% 110%;
 
