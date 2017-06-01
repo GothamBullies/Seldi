@@ -17,6 +17,7 @@ namespace seldin.Models
         public int NoOfBaths { get; set; }
         public string email { get; set; }
         public string ImageFileName { get; set; }
+        public string CoverImageFileName { get; set; }
         public Array Image { get; set; }
 
         public Category Category { get; set; }
@@ -41,6 +42,7 @@ namespace seldin.Models
                     NoOfBaths = 1,
                     Category = categories.Where(x => x.Id == 1).FirstOrDefault(),
                     ImageFileName = "ap-1.jpg",
+                    CoverImageFileName = "ap-1-cover.JPG",
                     email = "",
                     Image = new[] 
                     {

@@ -44,54 +44,34 @@
         </section>*@
 }
 
-<div class="top-content">
+<div class="top-content" style='background-image: url("../../Assets/images/apartment-images/ap-1-cover.JPG")'>
     <div class="container">
         <div class="row">
 
             <div class="col-sm-8">
-
-                <div class="headContent headFixer push-left padding-common">
-                    <div class="col-sm-8">
-                        <h1>
-                            @ViewBag.Models.Name
-                        </h1>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="push-right font-quote" id="contact">
-                            <a href="@ViewBag.Models.telephone"><span><em class="fa fa-phone"></em></span>@ViewBag.Models.telephone</a>
-                        </div>
-                    </div>
-
-                    <br><br>
-
-
-                    <br>
-
-
-
-                    <h5 class="font-quote font-semi-bold">
-                        @ViewBag.Models.Address
-                    </h5>
-                    <br>
-
-                    <h1 class="title-text font-semi-bold">
-                        <pre>@ViewBag.Models.Description</pre>
-                    </h1>
-                    <br>
-
-
-
-                    <p></p>
-
+                <h1>
+                    @ViewBag.Models.Name
+                </h1>
+                <br />
+                <div class="font-quote telephone">
+                    <a href="@ViewBag.Models.telephone"><span><em class="fa fa-phone"></em></span>@ViewBag.Models.telephone</a>
                 </div>
+                <br />
+                <h5 class="font-quote font-semi-bold address">
+                    @ViewBag.Models.Address
+                </h5>
+                <br>
 
+                <h1 class="title-text font-semi-bold">
+                    <pre>@ViewBag.Models.Description</pre>
+                </h1>
+                <br>
             </div>
 
             <div class="col-sm-4 c-form-1-box wow fadeInUp animated">
                 <div class="c-form-1-top">
                     <div class="c-form-1-top-left">
                         <h3>Contact Us</h3>
-                        <p>Fill in the form below to contact us:</p>
                     </div>
                     @*<div class="c-form-1-top-right">
                             <i class="fa fa-envelope"></i>
