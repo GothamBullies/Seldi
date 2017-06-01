@@ -6667,3 +6667,18 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,fieldset {
         background: rgba(16,16,16,0.5);
     }
 }
+
+pre.presst {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.428571429;
+    color: #333;
+    /* word-break: break-all; */
+    word-wrap: break-word;
+    background-color: #dcdcdc;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    font-family: sans-serif;
+}
