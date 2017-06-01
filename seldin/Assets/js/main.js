@@ -135,16 +135,14 @@ $(document).ready(function () {
 
 	//Preloader
 
-	$(window).load(function() {
+	$(window).load(function () {
 
-		$('#status').fadeOut();
+	    $('#status').fadeOut();
 
-		$('#preloader').delay(350).fadeOut('slow'); 
+	    $('#preloader').delay(350).fadeOut('slow');
 
-		$('body').delay(350).css({'overflow':'visible'});
+	    $('body').delay(350).css({ 'overflow': 'visible' });
 
-	})
-
-	
+	});
 
 });
