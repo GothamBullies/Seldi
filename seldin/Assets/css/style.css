@@ -2321,7 +2321,7 @@ figure.effect-zoe figcaption a:hover {
 
 .latest-pic1 {
 
-    background: url("../images1/lp1.jpg");
+    background: url("/Assets/images1/lp1.jpg");
 
     background-size: 110% 110%;
 
@@ -2339,7 +2339,7 @@ figure.effect-zoe figcaption a:hover {
 
 .latest-pic2 {
 
-    background: url("../images1/lp6.jpg");
+    background: url("/Assets/images1/lp6.jpg");
 
     background-size: 110% 110%;
 
