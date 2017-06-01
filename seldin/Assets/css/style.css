@@ -4469,7 +4469,7 @@ div#SERVICES p {
 
 .who-we-are-right {
 
-    background: url(../images1/who-we-are-bg.jpg);
+    background: url(/Assets/images1/who-we-are-bg.jpg);
 
     background-position: center center;
 
@@ -4628,7 +4628,7 @@ div#SERVICES p {
 
 .benefits-right {
 
-    background: url(../images/benefits.jpg);
+    background: url(/Assets/images/benefits.jpg);
 
     background-position: center center;
 
