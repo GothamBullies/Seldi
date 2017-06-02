@@ -6055,7 +6055,7 @@ section .team {
 .property-lists .pic-description .btn{
     position:absolute;
     bottom:0px;
-    z-index:100;
+    z-index:99;
 }
 
 @media (min-width: 450px) {
