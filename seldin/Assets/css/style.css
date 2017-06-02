@@ -6582,3 +6582,7 @@ pre.presst {
 .carousel-fade .carousel-control {
     z-index: 200;
 }
+
+.input-lg {
+    border-radius: 0px;
+}
