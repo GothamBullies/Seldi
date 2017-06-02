@@ -387,6 +387,11 @@ a i.fa-google-plus:hover {
 
 }
 
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+
 
 
 .navbar-fix {
@@ -4331,7 +4336,7 @@ figure.effect-zoe figcaption a:hover {
 
 .about-banner-bg {
 
-    background: url(../images1/about-header-banner-bg.jpg);
+    background: url(/Assets/images1/about-header-banner-bg.jpg);
 
     background-position: 100%;
 

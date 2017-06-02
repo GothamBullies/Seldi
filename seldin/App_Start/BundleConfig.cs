@@ -30,7 +30,7 @@ namespace seldin
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Assets/bootstrap.min.css",
-                      "~/Assets/css/font-awesome.min.css",
+                      //"~/Assets/css/font-awesome.min.css",
                       "~/Assets/css/animate.css",
                       "~/Content/bootstrap.min.css",
                       "~/Assets/css/magnific-popup.css",

@@ -287,6 +287,8 @@
     <Content Include="Assets\images\Cindy-Powers-2017.jpg" />
     <Content Include="Assets\images\favicon.ico" />
     <Content Include="Assets\images\footer-365connect.png" />
+    <Content Include="Assets\images\icon-eho.png" />
+    <Content Include="Assets\images\icon-poweredby.png" />
     <Content Include="Assets\images\living-room--apartment.jpg" />
     <Content Include="Assets\images\Rennaisance Village\the-reserves-at-preston-trails-01.jpg" />
     <Content Include="Assets\images\Rennaisance Village\the-reserves-at-preston-trails-02.jpg" />
