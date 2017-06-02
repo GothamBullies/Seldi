@@ -49,6 +49,143 @@
     </h1>
 </center>
 
-<p>@Model.Description</p>
+<div class="row">
+    <div class="col-md-4 text-center padding-md">
+
+    </div>
+    <div class="col-md-4 text-center padding-md">
+
+        <p>@Model.Description</p>
+
+    </div>
+    <div class="col-md-4 text-center padding-md">
+
+    </div>
+</div>
 
 
+
+<br><br>
+
+
+
+<section class="who-we-are" id="careers">
+
+    <div class="container-fluid padding-fix">
+
+        <div class="row">
+
+            <div class="col-md-6 padding-fix AMENITIES-left"></div>
+
+            <div class="col-md-6 padding-fix AMENITIES-right">
+
+                <div class="who-we-are-content padding-md">
+
+                    <span></span>
+
+                    <h2>Amenities</h2>
+
+                    <div class="row">
+                        <div class="col-md-12 text-center padding-md">
+
+                            <h5><i class="fa fa-check"></i> In-Unit Laundry</h5>
+                            <h5><i class="fa fa-check"></i> Fully Equipped Kitchens</h5>
+                            <h5><i class="fa fa-check"></i> Some Utilities Paid (FSA)</h5>
+                            <h5><i class="fa fa-check"></i> Walk-In Closet(s)</h5>
+                            <h5><i class="fa fa-check"></i> We Love Pets!</h5>
+                            <h5><i class="fa fa-check"></i> Accepts Online Payments</h5>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="who-we-are" id="careers">
+
+    <div class="container-fluid padding-fix">
+
+        <div class="row">
+
+            <div class="col-md-6 padding-fix Adress-left">
+
+                <div class="who-we-are-content padding-md">
+
+                    <span></span>
+
+                    <h2><i class="fa fa-map-marker"></i> @Model.Address</h2>
+
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-4 text-center padding-md header-social text-center">
+
+                            <h3>
+                                <ul class="list-inline">
+
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+
+                                </ul>
+                            </h3>
+
+
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6 padding-fix Adress-right"></div>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="who-we-are" id="careers">
+
+    <div class="container-fluid padding-fix">
+
+        <div class="row">
+
+            <div class="col-md-6 padding-fix who-we-are-right"></div>
+
+            <div class="col-md-6 padding-fix who-we-are-left">
+
+                <div class="who-we-are-content padding-md">
+
+                    <span></span>
+
+                    <h2>Contact Us</h2>
+
+                    <p>E-mail : @Model.email</p>
+                    <p><span><em class="fa fa-phone"></em></span> @Model.telephone</p>
+                    <p>
+                       @if (Model.OfficeHours != "")
+                    {  <span><em class="fa fa-clock-o"></em></span> @Model.OfficeHours }
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
