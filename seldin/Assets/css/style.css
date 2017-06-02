@@ -6560,3 +6560,26 @@ pre.presst {
 #latest-news .well{
     background-color:#FFFFFF;
 }
+
+.carousel-header{
+    position:relative;
+}
+.header-overlay {
+    height: 160px;
+    width: 500px;
+    background: rgba(16,16,16,0.3);
+    position: absolute;
+    z-index: 99;
+    border-radius: 5px;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding:30px;
+    color:#FFFFFF;
+}
+.header-overlay h3{
+    font-size:45px;
+}
+.carousel-fade .carousel-control {
+    z-index: 200;
+}
