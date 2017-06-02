@@ -387,6 +387,11 @@ a i.fa-google-plus:hover {
 
 }
 
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+
 
 
 .navbar-fix {
