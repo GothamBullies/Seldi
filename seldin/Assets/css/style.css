@@ -191,7 +191,7 @@ a i.fa-google-plus:hover {
 
     border-radius: 100px;
 
-    color: #046190;
+    color: #017cba;
 
     display: block;
 
@@ -219,7 +219,7 @@ a i.fa-google-plus:hover {
 
     border-radius: 100px;
 
-    color: #046190;
+    color: #017cba;
 
     display: block;
 
@@ -381,7 +381,7 @@ a i.fa-google-plus:hover {
 
 .navbar {
 
-    background: #046190;
+    background: #017cba;
 
     margin: 0px;
 
@@ -444,7 +444,7 @@ a i.fa-google-plus:hover {
 
 #my-navbar ul.main-menu li.active a {
 
-    background: #3c3c44 none repeat scroll 0 0;
+    background: #046da2 none repeat scroll 0 0;
 
     color: #fff;
 
@@ -594,7 +594,7 @@ a i.fa-google-plus:hover {
 
 #my-navbar ul.main-menu li:hover a {
 
-    background: #3C3C44;
+    background: #046da2;
 
 }
 
@@ -678,7 +678,7 @@ a i.fa-google-plus:hover {
 
 .main-nav .modal .modal-content .modal-header {
 
-    background: #046190;
+    background: #017cba;
 
     color: #fff;
 
@@ -922,7 +922,7 @@ a i.fa-google-plus:hover {
 
 .duplex span a {
 
-    color: #046190;
+    color: #017cba;
 
     -webkit-transition: .5s ease;
 
@@ -994,7 +994,7 @@ a i.fa-google-plus:hover {
 
 .bedrooms p span.room-inner-details {
 
-    color: #046190;
+    color: #017cba;
 
     font-weight: 600;
 
@@ -1062,7 +1062,7 @@ a i.fa-google-plus:hover {
 
     transition: .5s ease;
 
-    background: #046190;
+    background: #017cba;
 
 }
 
@@ -1084,9 +1084,9 @@ a i.fa-google-plus:hover {
 
 .carousel-indicators .active {
 
-    background-color: #046190;
+    background-color: #017cba;
 
-    border-color: #046190;
+    border-color: #017cba;
 
 }
 
@@ -1248,7 +1248,7 @@ a i.fa-google-plus:hover {
 
 .section-heading::before {
 
-    background: #046190 none repeat scroll 0 0;
+    background: #017cba none repeat scroll 0 0;
 
     bottom: 0;
 
@@ -1294,7 +1294,7 @@ a i.fa-google-plus:hover {
 
 .about h1 span {
 
-    color: #046190;
+    color: #017cba;
 
     font-weight: normal;
 
@@ -1448,7 +1448,7 @@ a i.fa-google-plus:hover {
 
 .about-bottom .fig i {
 
-    color: #046190;
+    color: #017cba;
 
     font-size: 35px;
 
@@ -1494,7 +1494,7 @@ a i.fa-google-plus:hover {
 
 .about-bottom .col-md-2:hover .fig::before {
 
-    border-color: #046190;
+    border-color: #017cba;
 
     -webkit-transform: rotate(45deg);
 
@@ -1606,7 +1606,7 @@ a i.fa-google-plus:hover {
 
 .property-details ul li.active {
 
-    background: #046190;
+    background: #017cba;
 
     -webkit-transition: .5s ease;
 
@@ -1678,7 +1678,7 @@ a i.fa-google-plus:hover {
 
 .water-strg span i {
 
-    color: #046190;
+    color: #017cba;
 
 }
 
@@ -1762,7 +1762,7 @@ a i.fa-google-plus:hover {
 
 .photo-gallery h1 span {
 
-    color: #046190;
+    color: #017cba;
 
     font-weight: normal;
 
@@ -2038,7 +2038,7 @@ figure.effect-zoe figcaption a:hover {
 
 .nearby-place h1 span {
 
-    color: #046190;
+    color: #017cba;
 
     font-weight: normal;
 
@@ -2090,7 +2090,7 @@ figure.effect-zoe figcaption a:hover {
 
 .location:nth-child(2) i {
 
-    background: #046190;
+    background: #017cba;
 
 }
 
@@ -2308,7 +2308,7 @@ figure.effect-zoe figcaption a:hover {
 
 .latest-property h1 span {
 
-    color: #046190;
+    color: #017cba;
 
     font-weight: normal;
 
@@ -2450,7 +2450,7 @@ figure.effect-zoe figcaption a:hover {
 
 .latest-pic-bottom .pic-address {
 
-    background: #046190;
+    background: #017cba;
 
     color: #fff;
 
@@ -2471,7 +2471,7 @@ figure.effect-zoe figcaption a:hover {
 }
 
 .description-wrap .btn {
-    background: #046190;
+    background: #017cba;
 }
 
 .description-wrap {
@@ -2534,7 +2534,7 @@ figure.effect-zoe figcaption a:hover {
 
     text-decoration: none;
 
-    color: #046190;
+    color: #017cba;
 
 }
 
@@ -2572,7 +2572,7 @@ figure.effect-zoe figcaption a:hover {
 
 .pic-mesure i {
 
-    color: #046190;
+    color: #017cba;
 
     font-size: 17px;
 
@@ -2590,7 +2590,7 @@ figure.effect-zoe figcaption a:hover {
 
 .contract-section {
 
-    background: #046190;
+    background: #017cba;
 
 	overflow:hidden;
 
@@ -2640,7 +2640,7 @@ figure.effect-zoe figcaption a:hover {
 
 .contract-left input {
 
-    background: #046190;
+    background: #017cba;
 
     width: 350px;
 
@@ -2658,7 +2658,7 @@ figure.effect-zoe figcaption a:hover {
 
 .contract-left textarea {
 
-    background: #046190;
+    background: #017cba;
 
     width: 350px;
 
@@ -2864,7 +2864,7 @@ figure.effect-zoe figcaption a:hover {
 
 .sell-contact a {
 
-    background: #046190;
+    background: #017cba;
 
     padding: 18px 35px;
 
@@ -2932,7 +2932,7 @@ figure.effect-zoe figcaption a:hover {
 
 .our-blog h1 span {
 
-    color: #046190;
+    color: #017cba;
 
     font-weight: normal;
 
@@ -2984,7 +2984,7 @@ figure.effect-zoe figcaption a:hover {
 
     top: 0;
 
-    color: #046190;
+    color: #017cba;
 
 }
 
@@ -3014,7 +3014,7 @@ figure.effect-zoe figcaption a:hover {
 
     top: 0;
 
-    color: #046190;
+    color: #017cba;
 
 }
 
@@ -3042,7 +3042,7 @@ figure.effect-zoe figcaption a:hover {
 
 .blog-content a {
 
-    background: #046190;
+    background: #017cba;
 
     color: #fff;
 
@@ -3128,7 +3128,7 @@ figure.effect-zoe figcaption a:hover {
 
     top: 0;
 
-    color: #046190;
+    color: #017cba;
 
 }
 
@@ -3158,7 +3158,7 @@ figure.effect-zoe figcaption a:hover {
 
     top: 0;
 
-    color: #046190;
+    color: #017cba;
 
 }
 
@@ -3188,7 +3188,7 @@ figure.effect-zoe figcaption a:hover {
 
 .blog-content3 a {
 
-    background: #046190;
+    background: #017cba;
 
     color: #fff;
 
@@ -3270,7 +3270,7 @@ figure.effect-zoe figcaption a:hover {
 
 .testimonials-title h1 span {
 
-    color: #046190;
+    color: #017cba;
 
     font-weight: normal;
 
@@ -3564,7 +3564,7 @@ figure.effect-zoe figcaption a:hover {
 
 .subscribe {
 
-    background: #046190;
+    background: #017cba;
 
     min-height: 100px;
 
@@ -3614,7 +3614,7 @@ figure.effect-zoe figcaption a:hover {
 
 .subscribe input[type=email] {
 
-    background: #046190;
+    background: #017cba;
 
     border: 1px solid #fff;
 
@@ -3748,7 +3748,7 @@ figure.effect-zoe figcaption a:hover {
 
 .footer-widget h3::after {
 
-    background: #046190;
+    background: #017cba;
 
     content: "";
 
@@ -3790,7 +3790,7 @@ figure.effect-zoe figcaption a:hover {
 
     text-decoration: none;
 
-    color: #046190;
+    color: #017cba;
 
 }
 
@@ -3846,7 +3846,7 @@ figure.effect-zoe figcaption a:hover {
 
 .footer-below {
 
-    background: #046190;
+    background: #017cba;
 
     padding: 22px 0;
 
@@ -3876,7 +3876,7 @@ figure.effect-zoe figcaption a:hover {
 
 .copy-right p a {
 
-    color: #046190;
+    color: #017cba;
 
 }
 
@@ -3964,7 +3964,7 @@ figure.effect-zoe figcaption a:hover {
 
 .latest-news p a:hover {
 
-    color: #046190;
+    color: #017cba;
 
     text-decoration: none;
 
@@ -4088,7 +4088,7 @@ figure.effect-zoe figcaption a:hover {
 
 .header-banner ol.breadcrumb li a.active {
 
-    color: #046190;
+    color: #017cba;
 
 }
 
@@ -4162,7 +4162,7 @@ figure.effect-zoe figcaption a:hover {
 
 .contact-page-details .contact-box:hover p.col-sm-3 {
 
-    background: #046190;
+    background: #017cba;
 
     margin: -1px 0;
 
@@ -4300,7 +4300,7 @@ figure.effect-zoe figcaption a:hover {
 
 .form-button > button {
 
-    background: #046190 none repeat scroll 0 0;
+    background: #017cba none repeat scroll 0 0;
 
     border: medium none;
 
@@ -4364,7 +4364,7 @@ figure.effect-zoe figcaption a:hover {
 
 .about-ecoreal-content p i {
 
-    color: #046190;
+    color: #017cba;
 
 }
 
@@ -4432,7 +4432,7 @@ figure.effect-zoe figcaption a:hover {
 
 .pdfone > a i, .pdftwo > a i {
 
-    color: #046190;
+    color: #017cba;
 
 }
 
@@ -4565,7 +4565,7 @@ div#SERVICES p {
 
 .who-we-are-content > h2::after {
 
-    background: #046190;
+    background: #017cba;
 
     bottom: 0;
 
@@ -4597,7 +4597,7 @@ div#SERVICES p {
 
 a.who-we-are-btn {
 
-    background: #046190;
+    background: #017cba;
 
     border-radius: 100px;
 
@@ -4724,7 +4724,7 @@ div#SERVICES p {
 
 .benefits-content > h2::after {
 
-    background: #046190;
+    background: #017cba;
 
     bottom: 0;
 
@@ -4756,7 +4756,7 @@ div#SERVICES p {
 
 a.benefits-btn {
 
-    background: #046190;
+    background: #017cba;
 
     border-radius: 100px;
 
@@ -4828,7 +4828,7 @@ a.benefits-btn:hover {
 
 .about-feature i {
 
-    background: #046190;
+    background: #017cba;
 
     border-radius: 100%;
 
@@ -4844,7 +4844,7 @@ a.benefits-btn:hover {
 
     width: 60px;
 
-    border: 2px solid #046190;
+    border: 2px solid #017cba;
 
     -webkit-transition: .5s ease;
 
@@ -4858,7 +4858,7 @@ a.benefits-btn:hover {
 
     background: #fff none repeat scroll 0 0;
 
-    border: 2px solid #046190;
+    border: 2px solid #017cba;
 
     color: #727272;
 
@@ -4934,7 +4934,7 @@ h3.widget-title {
 
 .post-dates span {
 
-    color: #046190;
+    color: #017cba;
 
     font-size: 18px;
 
@@ -4966,7 +4966,7 @@ h3.widget-title {
 
 .post-title a {
 
-    color: #046190;
+    color: #017cba;
 
     text-transform: none;
 
@@ -5004,9 +5004,9 @@ h3.widget-title {
 
     background-color: #fff;
 
-    border: 2px solid #046190;
+    border: 2px solid #017cba;
 
-    color: #046190;
+    color: #017cba;
 
     border-radius: 0;
 
@@ -5062,7 +5062,7 @@ h3.widget-title {
 
     border-radius: 0;
 
-    color: #046190;
+    color: #017cba;
 
 }
 
@@ -5134,7 +5134,7 @@ h3.widget-title {
 
 .property-small-content p span {
 
-    color: #046190;
+    color: #017cba;
 
     font-weight: 600;
 
@@ -5198,11 +5198,11 @@ property-small-picture a img {
 
 .blog-pagination ul.list-unstyled.list-inline li a:hover {
 
-    color: #046190;
+    color: #017cba;
 
     text-decoration: none;
 
-    border-color: #046190;
+    border-color: #017cba;
 
 }
 
@@ -5276,7 +5276,7 @@ property-small-picture a img {
 
 .content-list-items ul > li::before, .image-right-content ul li:before, .image-left-content ul li:before {
 
-    color: #046190;
+    color: #017cba;
 
     content: "";
 
@@ -5314,7 +5314,7 @@ property-small-picture a img {
 
 .content-inner-quote {
 
-    background: #046190 none repeat scroll 0 0;
+    background: #017cba none repeat scroll 0 0;
 
     border: 0 none;
 
@@ -5456,7 +5456,7 @@ property-small-picture a img {
 
     text-transform: uppercase;
 
-    background: #046190;
+    background: #017cba;
 
     padding: 5px 10px;
 
@@ -5610,7 +5610,7 @@ property-small-picture a img {
 
 .property-agent .agent-media ul li a {
 
-    color: #046190;
+    color: #017cba;
 
     font-weight: 600;
 
@@ -5654,7 +5654,7 @@ property-small-picture a img {
 
 .property-agent form input[type=submit] {
 
-    background: #046190;
+    background: #017cba;
 
     color: #fff;
 
@@ -5802,7 +5802,7 @@ h2.pd-title:after {
 
     border-radius: 0;
 
-    border: 1px solid #046190;
+    border: 1px solid #017cba;
 
     color: inherit;
 
@@ -5994,7 +5994,7 @@ h2.pd-title:after {
 
 .property-contact-info form input[type=submit] {
 
-    background: #046190 none repeat scroll 0 0;
+    background: #017cba none repeat scroll 0 0;
 
     border: medium none;
 
@@ -6235,7 +6235,7 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,fieldset {
 
 .container1 .btn-primary {
     color: #fff;
-    background-color: #046190;
+    background-color: #017cba;
     border-color: #03608f;
 
 }
@@ -6588,5 +6588,5 @@ pre.presst {
 }
 .btn-lg{
     border-radius: 0px;
-    background: #046190;
+    background: #017cba;
 }
