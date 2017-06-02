@@ -6586,3 +6586,7 @@ pre.presst {
 .input-lg {
     border-radius: 0px;
 }
+.btn-lg{
+    border-radius: 0px;
+    background: #046190;
+}
