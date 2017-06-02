@@ -35,7 +35,7 @@ namespace seldin.Models
                 {
                     Id = 1,
                     Name = "Village East",
-                    Description = "Village East (Senior Living 55+) in Omaha, Nebraska, offers residents comfort, happiness and relaxtion. Green Rooftop Patio, Private Sun Room, and Fully Equipped Kitchens will put you at ease. Residents enjoy beautiful views of Downtown Omaha while planting their own vegetables/fruits in the garden. Village East is conveniently located near Medical Facilities, easy access to Highway 75 and Public Transportation. Visit our community today to see why our residents are proud to call Village East home.",
+                    Description = "Village East (Senior Living 55+) in Omaha, Nebraska," + "" + " offers residents comfort, happiness and relaxtion. Green Rooftop Patio, Private Sun Room, and Fully Equipped Kitchens will put you at ease. Residents enjoy beautiful views of Downtown Omaha while planting their own vegetables/fruits in the garden. Village East is conveniently located near Medical Facilities, easy access to Highway 75 and Public Transportation. Visit our community today to see why our residents are proud to call Village East home.",
                     NoOfBeds = 2,
                     Address = "2011 North 25th Street • Omaha, NE 68111",
                     OfficeHours = "",

@@ -1,0 +1,54 @@
+﻿@model seldin.Models.Apartment
+@{
+    ViewBag.Title = "ViewApartmentVillageEast";
+    Layout = "~/Views/Shared/_Apartment1.cshtml";
+}
+
+<section class="intro-carousel wow fadeIn">
+
+    <div class="container-fluid ">
+
+        <div id="intro-carousel-inner" class="carousel slide carousel-fade" data-ride="carousel">
+
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <img src="~/Assets/images/apartment-images/1-1.JPG" alt="Second slide" />
+                </div>
+
+                <div class="item">
+                    <img src="~/Assets/images/apartment-images/1-2.JPG" alt="Third slide" />
+                </div>
+
+                <div class="item">
+                    <img src="~/Assets/images/apartment-images/1-3.JPG" alt="Fourth slide" />
+                </div>
+
+                <div class="item">
+                    <img src="~/Assets/images/apartment-images/1-4.JPG" alt="Fifth slide" />
+                </div>
+
+            </div>
+
+            <a class="left carousel-control" href="#intro-carousel-inner" data-slide="prev"><span><i class="fa fa-angle-left"></i></span></a>
+
+            <a class="right carousel-control" href="#intro-carousel-inner" data-slide="next"><span><i class="fa fa-angle-right"></i></span></a>
+
+
+        </div>
+
+    </div>
+
+</section>
+<br>
+
+
+<center>
+    <h1>
+        @Model.Name
+    </h1>
+</center>
+
+<p>@Model.Description</p>
+
+
