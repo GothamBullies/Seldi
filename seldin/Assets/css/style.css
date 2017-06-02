@@ -4487,8 +4487,6 @@ div#SERVICES p {
 
 
 .who-we-are-content {
-    margin-left: 50px !important;
-    margin-right: 50px !important;
     margin-top: 80px;
     margin-bottom: 80px;
     text-align: center;
@@ -4609,7 +4607,7 @@ div#SERVICES p {
 }
 
 
-.benefits .col-md-6 {
+.benefits > .container-fluid > .row > .col-md-6 {
 
     height: 500px;
 
@@ -6434,6 +6432,10 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,fieldset {
         z-index: 0;
         background: rgba(16,16,16,0.5);
     }
+
+    .footer ul {
+        padding-left: 20px;
+    }
 }
 
 @media screen and (max-width: 658px) {
@@ -6487,6 +6489,7 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,fieldset {
         z-index: 0;
         background: rgba(16,16,16,0.5);
     }
+
 }
 
 pre.presst {
@@ -6502,4 +6505,8 @@ pre.presst {
     border: 1px solid #dcdcdc;
     border-radius: 4px;
     font-family: sans-serif;
+}
+
+.padding-md{
+    padding:20px;
 }
