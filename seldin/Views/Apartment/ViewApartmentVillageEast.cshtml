@@ -8,13 +8,14 @@
 
     <div class="container-fluid carousel-header">
         <div class="header-overlay">
-            <div class="pull-left">
-                <img width="100" src="~/Assets/images/logos/village-east.png" alt="Logo">
+            <div class="text-center">
+                <img height="60" src="~/Assets/images/village-east.png" alt="Logo">
             </div>
-            <div class="pull-right">
-                <h3>Village East</h3>
-                <p><span><em class="fa fa-phone"></em></span> @Model.telephone</p>
-            </div>
+            <br />
+            <br />
+            <p><i class="fa fa-map-marker"></i> @Model.Address</p>
+            <p><i class="fa fa-phone"></i> @Model.telephone</p>
+            <p><i class="fa fa-envelope"></i> @Model.email</p>
         </div>
         <div id="intro-carousel-inner" class="carousel slide carousel-fade" data-ride="carousel">
 

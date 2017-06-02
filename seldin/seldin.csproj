@@ -303,6 +303,7 @@
     <Content Include="Assets\images\Rennaisance Village\the-reserves-at-preston-trails-03.jpg" />
     <Content Include="Assets\images\seldin_logo.png" />
     <Content Include="Assets\images\se_alicia.jpg" />
+    <Content Include="Assets\images\village-east.png" />
     <Content Include="Assets\js\bootstrap.min.js" />
     <Content Include="Assets\js\google-map.js" />
     <Content Include="Assets\js\jquery.ajaxchimp.js" />
