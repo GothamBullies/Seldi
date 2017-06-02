@@ -4447,8 +4447,7 @@ figure.effect-zoe figcaption a:hover {
 
 
 .who-we-are {
-
-
+    background-color: #F5F5F5
 }
 
 div#SERVICES p {
@@ -4460,6 +4459,9 @@ div#SERVICES p {
 
     height: 500px;
 
+}
+.who-we-are form .col-md-6 {
+    height: inherit;
 }
 
 
@@ -4490,7 +4492,7 @@ div#SERVICES p {
 
     background-position: center center;
 
-    background-size: 130% auto;
+    background-size: cover;
 
     background-repeat: no-repeat;
 
@@ -4508,7 +4510,7 @@ div#SERVICES p {
 
     background-position: center center;
 
-    background-size: 130% auto;
+    background-size: cover;
 
     background-repeat: no-repeat;
 
@@ -4527,6 +4529,10 @@ div#SERVICES p {
     text-align: center;
 }
 
+.who-we-are-content.form{
+    margin-top: inherit;
+    margin-bottom: inherit;
+}
 
 
 .who-we-are-content > span {
@@ -6167,13 +6173,14 @@ section .team {
 }
 
 .c-form-1-bottom {
-    padding: 25px 25px 30px 25px;
+    /*padding: 25px 25px 30px 25px;*/
     background: #444;
     background: rgba(255,255,255,0.3);
     text-align: left;
     -moz-border-radius: 0 0 4px 4px;
     -webkit-border-radius: 0 0 4px 4px;
     border-radius: 0 0 4px 4px;
+    padding:0 50px;
 }
 
 .c-form-1-top {
@@ -6544,4 +6551,12 @@ pre.presst {
 
 .padding-md{
     padding:20px;
+}
+#latest-news {
+    background-color: #F8F8F8;
+    padding-top:120px;
+    padding-bottom:50px;
+}
+#latest-news .well{
+    background-color:#FFFFFF;
 }
