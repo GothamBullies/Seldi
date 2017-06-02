@@ -6,6 +6,8 @@ namespace seldin.Models
 {
     public class Apartment
     {
+        private string _apartmentImagesFolder = "/Assets/images/apartment-images/";
+
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
@@ -44,11 +46,14 @@ namespace seldin.Models
                     ImageFileName = "ap-1.jpg",
                     CoverImageFileName = "ap-1-cover.JPG",
                     email = "",
-                    Image = new[] 
+                    Image = new[]
                     {
-                        "~/content/img/associates/bob-deane.jpg",
-                        "~/content/img/associates/bob-deane.jpg",
-                        "~/content/img/associates/bob-deane.jpg"
+                        $"{_apartmentImagesFolder}1-1.jpg",
+                        $"{_apartmentImagesFolder}1-2.jpg",
+                        $"{_apartmentImagesFolder}1-3.jpg",
+                        $"{_apartmentImagesFolder}1-4.jpg",
+                        $"{_apartmentImagesFolder}1-5.jpg",
+                        $"{_apartmentImagesFolder}1-6.jpg",
                     }
 
                 },
@@ -68,9 +73,9 @@ namespace seldin.Models
                     email = "Renaissancevillage@seldin.com",
                     Image = new[]
                     {
-                        "~/content/img/associates/bob-deane.jpg",
-                        "~/content/img/associates/bob-deane.jpg",
-                        "~/content/img/associates/bob-deane.jpg"
+                        $"{_apartmentImagesFolder}2-1.jpg",
+                        $"{_apartmentImagesFolder}2-2.jpg",
+                        $"{_apartmentImagesFolder}2-3.jpg"
                     }
                 },
                 new Apartment()
@@ -89,9 +94,11 @@ namespace seldin.Models
                     email = "",
                     Image = new[]
                     {
-                        "~/content/img/associates/bob-deane.jpg",
-                        "~/content/img/associates/bob-deane.jpg",
-                        "~/content/img/associates/bob-deane.jpg"
+                        $"{_apartmentImagesFolder}3-1.jpg",
+                        $"{_apartmentImagesFolder}3-2.jpg",
+                        $"{_apartmentImagesFolder}3-3.jpg",
+                        $"{_apartmentImagesFolder}3-4.jpg",
+                        $"{_apartmentImagesFolder}3-5.jpg"
                     }
                 }
             };

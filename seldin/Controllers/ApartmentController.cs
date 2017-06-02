@@ -9,6 +9,7 @@ namespace seldin.Controllers
 {
     public class ApartmentController : Controller
     {
+
         // GET: Apartment
         public ActionResult Index()
         {
@@ -17,12 +18,11 @@ namespace seldin.Controllers
 
         public ActionResult ViewApartment(int id)
         {
+
             var apartment = new Apartment();
             var apartments = apartment.GetApartments();
             var models = apartments.Where(x => x.Id == id).FirstOrDefault();
-
-            ViewBag.Models = models;
-
+            
             return View(models);
         }
 

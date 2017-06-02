@@ -320,5 +320,17 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+    <script type="text/javascript">
+        //Sticky Menu
+
+        var pageWindow = $(window),
+            navbar = $('#my-navbar'),
+            topElement = navbar.offset().top;
+        console.log(topElement);
+
+        pageWindow.scroll(function () {
+            navbar.toggleClass('sticky', pageWindow.scrollTop() > topElement);
+        });
+    </script>
 </body>
 </html>

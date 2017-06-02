@@ -52,17 +52,6 @@ $(document).ready(function () {
 
 	new WOW().init();
 
-	//Sticky Menu
-    
-    var pageWindow = $(window),
-        navbar = $('#my-navbar'),
-        topElement = navbar.offset().top;
-    console.log(topElement);
-
-    pageWindow.scroll(function () {
-        navbar.toggleClass('sticky', pageWindow.scrollTop() > topElement);
-    });
-
 	//Smooth Scroll
 
 	$('nav a[href*="#"]:not([href="#"])').click(function() {

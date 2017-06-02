@@ -1,16 +1,17 @@
-﻿
+﻿@model seldin.Models.Apartment
+
 @{
     ViewBag.Title = "ViewApartment";
     Layout = "~/Views/Shared/_Apartment.cshtml";
-
+    int imageCounter = 1;
 }
 
 @*<h2>ViewApartment</h2>*@
 
-@*@ViewBag.Models.Name*@
+@*@Model.Name*@
 
 
-@if (ViewBag.Models.Id == 1)
+@if (Model.Id == 1)
 {
     @*<section class="intro-carousel wow fadeIn" >
 
@@ -44,26 +45,35 @@
         </section>*@
 }
 @*<div class="top-content" style='background-image: url("../../Assets/images/apartment-images/ap-1-cover.JPG")'>*@
+
+<ul class="slideshow">
+    @foreach (var item in Model.Image)
+    {
+        <li><span data-image-url="@item">Image @imageCounter.ToString()</span></li>
+        imageCounter++;
+    }
+</ul>
+
 <div class="top-content" >
     <div class="container">
         <div class="row" style="background: rgba(0, 0, 0, 0.44);">
 
             <div class="col-sm-8">
                 <h1>
-                    @ViewBag.Models.Name
+                    @Model.Name
                 </h1>
                 <br />
                 <div class="font-quote telephone text-left">
-                    <a href="#"><span><em class="fa fa-phone"></em></span> @ViewBag.Models.telephone @if (ViewBag.Models.OfficeHours != "") {  <span><em class="fa fa-clock-o"></em></span> @ViewBag.Models.OfficeHours } </a>
+                    <a href="#"><span><em class="fa fa-phone"></em></span> @Model.telephone @if (Model.OfficeHours != "") {  <span><em class="fa fa-clock-o"></em></span> @Model.OfficeHours } </a>
                 </div>
                 <br />
                 <h5 class="font-quote font-semi-bold address text-left">
-                    @ViewBag.Models.Address
+                    @Model.Address
                 </h5>
                 <br>
 
                 <h5 class="font-quote font-semi-bold address text-left" style="line-height: 1.8;">
-                    @ViewBag.Models.Description
+                    @Model.Description
                 </h5>
                 <br>
             </div>
@@ -122,7 +132,39 @@
         </div>
     </div>
 </div>
-<script>
 
+@section scripts{
+    <script type="text/javascript">
+        // Dynamic Slideshow
+        $(document).ready(function () {
+            var delay = 6;
+            var delayCounter = 0;
+            var spans = $(".slideshow li span");
 
-</script>
+            var imagesDelay = spans.length * delay;
+            spans.css("-webkit-animation", 'imageAnimation ' + imagesDelay + 's linear infinite 0s');
+            spans.css("-moz-animation:", 'imageAnimation ' + imagesDelay + 's linear infinite 0s');
+            spans.css("-o-animation", 'imageAnimation ' + imagesDelay + 's linear infinite 0s');
+            spans.css("-ms-animation", 'imageAnimation ' + imagesDelay + 's linear infinite 0s');
+            spans.css("animation", 'imageAnimation ' + imagesDelay + 's linear infinite 0s');
+
+            $.each(spans, function (i, o) {
+                var imageDelay = delay * delayCounter;
+                var span = $(o);
+
+                span.css("background-image", 'url("' + span.data("image-url") + '")');
+
+                if (delayCounter > 0) {
+                    span.css("-webkit-animation-delay", imageDelay + "s");
+                    span.css("moz-animation-delay", imageDelay + "s");
+                    span.css("-o-animation-delay", imageDelay + "s");
+                    span.css("-ms-animation-delay", imageDelay + "s");
+                    span.css("animation-delay", imageDelay + "s");
+                }
+
+                delayCounter++;
+            });
+        });
+
+    </script>    
+}
