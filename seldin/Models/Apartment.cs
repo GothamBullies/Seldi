@@ -45,7 +45,7 @@ namespace seldin.Models
                     Category = categories.Where(x => x.Id == 1).FirstOrDefault(),
                     ImageFileName = "ap-1.jpg",
                     CoverImageFileName = "ap-1-cover.JPG",
-                    email = "mailto:villageeast@seldin.com",
+                    email = "villageeast@seldin.com",
                     Image = new[]
                     {
                         $"{_apartmentImagesFolder}1-1.jpg",
