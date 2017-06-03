@@ -466,12 +466,12 @@
     <Content Include="Views\Apartment\ViewApartment.cshtml" />
     <Content Include="Views\Shared\_Apartment1.cshtml" />
     <Content Include="Views\Apartment\ViewApartmentVillageEast.cshtml" />
+    <Content Include="Views\Associates\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Assets\images\THE RESERVES AT PRESTON TRAILS\" />
     <Folder Include="Assets\images\Village East\" />
-    <Folder Include="Views\Associates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

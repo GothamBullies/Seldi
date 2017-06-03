@@ -4524,6 +4524,8 @@ div#SERVICES p {
 
 
 .who-we-are-content {
+    margin-left: 100px !important;
+    margin-right: 100px !important;
     margin-top: 80px;
     margin-bottom: 80px;
     text-align: center;
@@ -6589,4 +6591,7 @@ pre.presst {
 .btn-lg{
     border-radius: 0px;
     background: #017cba;
+}
+.text-justify {
+    text-align: justify !important;
 }
