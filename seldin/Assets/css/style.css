@@ -6566,21 +6566,6 @@ pre.presst {
 .carousel-header{
     position:relative;
 }
-.header-overlay {
-    width: 500px;
-    background: rgba(16,16,16,0.3);
-    position: absolute;
-    z-index: 99;
-    border-radius: 5px;
-    right: 0;
-    margin-right: 100px;
-    margin-top: 20px;
-    padding:30px;
-    color:#FFFFFF;
-}
-.header-overlay h3{
-    font-size:45px;
-}
 .carousel-fade .carousel-control {
     z-index: 200;
 }
@@ -6594,4 +6579,36 @@ pre.presst {
 }
 .text-justify {
     text-align: justify !important;
+}
+
+.intro-carousel {
+}
+.intro-carousel .carousel-inner:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+}
+.intro-carousel .carousel-inner{
+    height:133px;
+}
+.intro-carousel .carousel-control{
+    top:60%;
+}
+.intro-carousel .carousel-inner .item img {
+    position: absolute;
+    top: -230px;
+}
+.ap-name {
+    color: #FFFFFF;
+    position: absolute;
+    z-index:1;
+    padding-left:200px;
+    padding-top:50px;
+    font-weight:bold;
+    font-size:30px;
 }

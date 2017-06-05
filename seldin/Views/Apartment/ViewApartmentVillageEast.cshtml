@@ -7,20 +7,9 @@
 <section class="intro-carousel wow fadeIn">
 
     <div class="container-fluid carousel-header">
-        <div class="header-overlay">
-            <div class="text-center">
-                <img height="60" src="~/Assets/images/village-east.png" alt="Logo">
-            </div>
-            <br />
-            <br />
-            <p><i class="fa fa-map-marker"></i> @Model.Address</p>
-            <p><i class="fa fa-phone"></i> @Model.telephone</p>
-            <p><i class="fa fa-envelope"></i> @Model.email</p>
-        </div>
         <div id="intro-carousel-inner" class="carousel slide carousel-fade" data-ride="carousel">
-
+            <div class="container ap-name">@Model.Name</div>
             <div class="carousel-inner">
-
                 <div class="item active">
                     <img src="~/Assets/images/apartment-images/1-1.JPG" alt="Second slide" />
                 </div>
