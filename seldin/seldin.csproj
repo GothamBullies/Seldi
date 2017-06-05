@@ -463,9 +463,8 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Apartment\Index.cshtml" />
     <Content Include="Views\Shared\_Apartment.cshtml" />
-    <Content Include="Views\Apartment\ViewApartment.cshtml" />
     <Content Include="Views\Shared\_Apartment1.cshtml" />
-    <Content Include="Views\Apartment\ViewApartmentVillageEast.cshtml" />
+    <Content Include="Views\Apartment\ViewApartment.cshtml" />
     <Content Include="Views\Associates\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>

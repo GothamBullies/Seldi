@@ -4488,8 +4488,6 @@ div#SERVICES p {
 
 .AMENITIES-left {
 
-    background: url(/Assets/images/apartment-images/1-1.jpg);
-
     background-position: center center;
 
     background-size: cover;
@@ -6581,9 +6579,7 @@ pre.presst {
     text-align: justify !important;
 }
 
-.intro-carousel {
-}
-.intro-carousel .carousel-inner:after{
+.ap-banner.intro-carousel .carousel-inner:after{
     content: "";
     display: block;
     position: absolute;
@@ -6593,13 +6589,13 @@ pre.presst {
     right: 0;
     background: rgba(0,0,0,0.5);
 }
-.intro-carousel .carousel-inner{
-    height:133px;
+.ap-banner.intro-carousel .carousel-inner {
+    height: 133px;
 }
-.intro-carousel .carousel-control{
-    top:60%;
+.ap-banner.intro-carousel .carousel-control {
+    top: 60%;
 }
-.intro-carousel .carousel-inner .item img {
+.ap-banner.intro-carousel .carousel-inner .item img {
     position: absolute;
     top: -230px;
 }

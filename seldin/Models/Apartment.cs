@@ -20,7 +20,7 @@ namespace seldin.Models
         public string email { get; set; }
         public string ImageFileName { get; set; }
         public string CoverImageFileName { get; set; }
-        public Array Image { get; set; }
+        public List<string> Image { get; set; }
 
         public Category Category { get; set; }
 
@@ -46,7 +46,7 @@ namespace seldin.Models
                     ImageFileName = "ap-1.jpg",
                     CoverImageFileName = "ap-1-cover.JPG",
                     email = "villageeast@seldin.com",
-                    Image = new[]
+                    Image = new List<string>()
                     {
                         $"{_apartmentImagesFolder}1-1.jpg",
                         $"{_apartmentImagesFolder}1-2.jpg",
@@ -71,7 +71,7 @@ namespace seldin.Models
                     Category = categories.Where(x => x.Id == 2).FirstOrDefault(),
                     ImageFileName = "ap-2.jpg",
                     email = "Renaissancevillage@seldin.com",
-                    Image = new[]
+                    Image = new List<string>()
                     {
                         $"{_apartmentImagesFolder}2-1.jpg",
                         $"{_apartmentImagesFolder}2-2.jpg",
@@ -92,7 +92,7 @@ namespace seldin.Models
                     Category = categories.Where(x => x.Id == 1).FirstOrDefault(),
                     ImageFileName = "ap-1.jpg",
                     email = "",
-                    Image = new[]
+                    Image = new List<string>()
                     {
                         $"{_apartmentImagesFolder}3-1.jpg",
                         $"{_apartmentImagesFolder}3-2.jpg",

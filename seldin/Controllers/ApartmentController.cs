@@ -25,15 +25,5 @@ namespace seldin.Controllers
             
             return View(models);
         }
-
-        public ActionResult ViewApartmentVillageEast(int id)
-        {
-            var apartment = new Apartment();
-            var apartments = apartment.GetApartments();
-            var models = apartments.Where(x => x.Id == id).FirstOrDefault();
-
-            return View(models);
-        }
-
     }
 }
