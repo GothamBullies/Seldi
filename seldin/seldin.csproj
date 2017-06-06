@@ -215,6 +215,8 @@
     <Content Include="Assets\css\animate.css" />
     <Content Include="Assets\css\bootstrap.min.css" />
     <Content Include="Assets\css\font-awesome.min.css" />
+    <Content Include="Assets\css\jquery.bxslider.css" />
+    <Content Include="Assets\css\jquery.bxslider.min.css" />
     <Content Include="Assets\css\magnific-popup.css" />
     <Content Include="Assets\css\owl.carousel.css" />
     <Content Include="Assets\css\responsive.css" />
@@ -296,6 +298,8 @@
     <Content Include="Assets\images\apartment-images\3-5.JPG" />
     <Content Include="Assets\images\benefits.jpg" />
     <Content Include="Assets\images\Bob-Dean-2017.jpg" />
+    <Content Include="Assets\images\bxslider\bx_loader.gif" />
+    <Content Include="Assets\images\bxslider\controls.png" />
     <Content Include="Assets\images\Cindy-Powers-2017.jpg" />
     <Content Include="Assets\images\favicon.ico" />
     <Content Include="Assets\images\footer-365connect.png" />
@@ -311,6 +315,8 @@
     <Content Include="Assets\js\bootstrap.min.js" />
     <Content Include="Assets\js\google-map.js" />
     <Content Include="Assets\js\jquery.ajaxchimp.js" />
+    <Content Include="Assets\js\jquery.bxslider.js" />
+    <Content Include="Assets\js\jquery.bxslider.min.js" />
     <Content Include="Assets\js\jquery.js" />
     <Content Include="Assets\js\jquery.magnific-popup.js" />
     <Content Include="Assets\js\jquery.mixitup.js" />
@@ -466,7 +472,6 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Apartment\Index.cshtml" />
     <Content Include="Views\Shared\_Apartment.cshtml" />
-    <Content Include="Views\Shared\_Apartment1.cshtml" />
     <Content Include="Views\Apartment\ViewApartment.cshtml" />
     <Content Include="Views\Associates\Index.cshtml" />
   </ItemGroup>

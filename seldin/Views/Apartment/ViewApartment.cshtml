@@ -1,166 +1,43 @@
 ﻿@model seldin.Models.Apartment
 @{
     ViewBag.Title = "ViewApartmentVillageEast";
-    Layout = "~/Views/Shared/_Apartment1.cshtml";
-    int counter = 0;
+    Layout = "~/Views/Shared/_Apartment.cshtml";
 }
-
-<section class="ap-banner intro-carousel wow fadeIn">
-
-    <div class="container-fluid carousel-header">
-        <div id="intro-carousel-inner" class="carousel slide carousel-fade" data-ride="carousel">
-            <div class="container ap-name">@Model.Name</div>
-            <div class="carousel-inner">
-                @foreach (var item in Model.Image)
-                {
-                    <div class="item @if(counter == 0){<text>active</text>}">
-                        <img src="@item" alt="slide @counter" />
-                    </div>
-                    counter++;
-                }
-
-            </div>
-
-            <a class="left carousel-control" href="#intro-carousel-inner" data-slide="prev"><span><i class="fa fa-angle-left"></i></span></a>
-
-            <a class="right carousel-control" href="#intro-carousel-inner" data-slide="next"><span><i class="fa fa-angle-right"></i></span></a>
-
-
-        </div>
-
-    </div>
-
-</section>
-<br>
-
-
-<center>
-    <br /><br />
-    <h1>
-        @Model.Name
-    </h1>
-</center>
-
-<div class="row">
-
-    <div class="container text-center padding-md">
-
-
-        <p>@Model.Description</p>
-    </div>
-
-</div>
-
-
-
-<br><br> 
-
-
-
-<section class="who-we-are" id="careers">
-
-    <div class="container-fluid padding-fix">
-
-        <div class="row">
-
-            <div class="col-md-6 padding-fix AMENITIES-left" style="background: url(@Model.Image.ElementAt(0)); background-size: cover;"></div>
-
-            <div class="col-md-6 padding-fix AMENITIES-right">
-
-                <div class="padding-md">
-
-                    <span></span>
-
-                    <h2 class="text-center" style="margin-top:80px">Amenities</h2>
-
-                    <div class="row">
-                        <div class="col-md-12 text-center padding-md">
-
-                            <p><i class="fa fa-check"></i>In-Unit Laundry</p>
-                            <p><i class="fa fa-check"></i>Fully Equipped Kitchens</p>
-                            <p><i class="fa fa-check"></i>Some Utilities Paid (FSA)</p>
-                            <p><i class="fa fa-check"></i>Walk-In Closet(s)</p>
-                            <p><i class="fa fa-check"></i>We Love Pets!</p>
-                            <p><i class="fa fa-check"></i>Accepts Online Payments</p>
-
-                        </div>
-                    </div>
-
+<section class="header-banner about-banner-bg">
+    <div class="banner-overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>@Model.Name</h2>
                 </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<section class="who-we-are" id="careers">
-
-    <div class="container-fluid padding-fix">
-
-        <div class="row">
-
-            <div class="col-md-6 padding-fix Adress-left">
-
-                <div class="padding-md">
-
-                    <span></span>
-
-                    <h2 class="text-center" style="margin-top:118px"><i class="fa fa-map-marker"></i> @Model.Address</h2>
-                    <br />
-                    <div class="row  text-center">
-                        <p>E-mail : @Model.email
-                        <br /><span><em class="fa fa-phone"></em></span> @Model.telephone
-                        <br />
-                            @if (Model.OfficeHours != "")
-                            {  <span><em class="fa fa-clock-o"></em></span> @Model.OfficeHours }
-
-                        </p>
-                        <div class="social-widget-links">
-                            <ul class="list-unstyled list-inline">
-
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-
-                            </ul>
-
-                        </div>
-                        <div class="col-md-4"></div>
-                    </div>
-
+                <div class="col-md-6 col-sm-12">
                 </div>
-
             </div>
-
-            <div class="col-md-6 padding-fix Adress-right" style="background: url(@Model.Image.ElementAt(1)); background-size: cover;"></div>
-
         </div>
-
     </div>
-
 </section>
-<section class="who-we-are" id="careers">
-
-    <div class="container-fluid padding-fix">
-
+<br />
+<br />
+<section class="ap-banner wow fadeIn">
+    <div class="container">
+        <h1 class="text-center section-heading wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0s; animation-name: fadeInUp;">Schedule a <b>Tour</b> today!</h1>
+        <br />
         <div class="row">
+            <div class="col-md-7">
+                <ul class="apartment-images-slider">
+                    @foreach (var item in Model.Image)
+                    {
+                        <li>
+                            <img src="@item" alt="apartment image" />
+                        </li>
+                    }
+                </ul>
+            </div>
+            <div class="col-md-5">
 
-            <div class="col-md-6 padding-fix who-we-are-right" style="background: url(@Model.Image.ElementAt(2)); background-size: cover;"></div>
-
-            <div class="col-md-6 padding-fix who-we-are-left">
-
-                <div class="form padding-md">
+                <div class="form">
 
                     <div class="c-form-1-bottom">
-                        <h2 class="text-center">Schedule a <b>Tour</b> today!</h2>
-                        <br />
                         <form role="form" action="assets/contact.php" method="post">
                             <div class="row">
                                 <div class="col-md-6">
@@ -202,11 +79,171 @@
                     </div>
 
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </section>
+<br />
+<br />
+<section class="apartment-details">
+    <div class="container text-center">
+        <h1> @Model.Name</h1>
+        <p class="padding-md">@Model.Description</p>
+    </div>
+</section>
+<br />
+<br />
+@*<section class="apartment-details">
+        <div class="container text-center">
+            <h1> @Model.Name</h1>
+            <p class="padding-md">@Model.Description</p>
+            <br />
+            <br />
+            <div class="row">
+                <div class="col-md-4 apartment-detail">
+                    <div class="well">
+                        <div class="well-content">
+                            <h2 class="text-left">Contact Details</h2>
+                            <br />
+                            <h3 class="text-center"><i class="fa fa-map-marker"></i> @Model.Address</h3>
+                            <br />
+                            <p>
+                                E-mail : @Model.email
+                                <br /><span><em class="fa fa-phone"></em></span> @Model.telephone
+                                <br />
+                                @if (Model.OfficeHours != "")
+                                {  <span><em class="fa fa-clock-o"></em></span> @Model.OfficeHours }
+                            </p>
+                            <div class="social-widget-links">
+                                <ul class="list-unstyled list-inline">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 apartment-detail">
+                    <div class="well">
+                        <div class="well-content">
+                            <h2 class="text-left">Amenities</h2>
+                            <br />
+                            <div class="text-left">
+                                @foreach (var item in Model.Amenities)
+                                {
+                                <p><i class="fa fa-check"></i>&nbsp;@item</p>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 apartment-detail">
+                    <div class="well">
+                        <div class="well-content">
+                            <h2 class="text-left">Community</h2>
+                            <br />
+                            <div class="text-left">
+                                @foreach (var item in Model.Community)
+                                {
+                                <p><i class="fa fa-check"></i>&nbsp;@item</p>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>*@
+<section class="who-we-are view-apamartment-detail fadeInRight">
+    <div class="container-fluid padding-fix">
+        <div class="row">
+            <div class="col-md-6 padding-fix who-we-are-left">
+                <div class="who-we-are-content text-left">
+                    <h2 class="text-left">Contact Details</h2>
+                    <br />
+                    <h3 class="text-left"><i class="fa fa-map-marker"></i> @Model.Address</h3>
+                    <br />
+                    <p class="text-left">
+                        E-mail : @Model.email
+                        <br /><span><em class="fa fa-phone"></em></span> @Model.telephone
+                        <br />
+                        @if (Model.OfficeHours != "")
+                        {  <span><em class="fa fa-clock-o"></em></span> @Model.OfficeHours }
+                    </p>
+                    <div class="social-widget-links">
+                        <ul class="list-unstyled list-inline">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 padding-fix who-we-are-right" style="background-image:url(@Model.Image.ElementAt(0))"></div>
+        </div>
+    </div>
+</section>
+<section class="who-we-are view-apamartment-detail fadeInLeft">
+    <div class="container-fluid padding-fix">
+        <div class="row">
+            <div class="col-md-6 padding-fix who-we-are-left" style="background-image:url(@Model.Image.ElementAt(1))"></div>
+            <div class="col-md-6 padding-fix who-we-are-right" style="background-image:none;">
+                <div class="who-we-are-content text-left">
+                    <h2 class="text-left">Amenities</h2>
+                    <br />
+                    <div class="text-left">
+                        @foreach (var item in Model.Amenities)
+                        {
+                            <p><i class="fa fa-check"></i>&nbsp;@item</p>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="who-we-are view-apamartment-detail fadeInRight">
+    <div class="container-fluid padding-fix">
+        <div class="row">
+            <div class="col-md-6 padding-fix who-we-are-left">
+                <div class="who-we-are-content">
+                    <h2 class="text-left">Community</h2>
+                    <br />
+                    <div class="text-left">
+                        @foreach (var item in Model.Community)
+                        {
+                            <p><i class="fa fa-check"></i>&nbsp;@item</p>
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 padding-fix who-we-are-right" style="background-image:url(@Model.Image.ElementAt(2))"></div>
+        </div>
+    </div>
+</section>
+
+@section styles{
+    <link href="~/Assets/css/jquery.bxslider.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-datepicker.min.css" rel="stylesheet" />
+}
+
+@section scripts{
+    <script src="~/Assets/js/jquery.bxslider.min.js"></script>
+    <script src="~/Scripts/bootstrap-datepicker.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".apartment-images-slider").bxSlider({
+                minSlides: 1,
+                maxSlides: 1,
+                slideMargin: 10
+            });
+            $("#datetimepicker").datepicker({
+                autoclose: true
+            });
+        });
+    </script>
+}
