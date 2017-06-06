@@ -2788,7 +2788,7 @@ figure.effect-zoe figcaption a:hover {
 
 .sell-property {
 
-    background: url("../images/property-sell-banner-bg.jpg");
+    background: url("/Assets/images1/property-sell-banner-bg.jpg");
 
     background-attachment: fixed;
 
@@ -2804,7 +2804,7 @@ figure.effect-zoe figcaption a:hover {
 
 .banner-overlay {
 
-    background: rgba(0,0,0,0.5);
+    background: rgba(27,81,135,.7);
 
     width: 100%;
 
@@ -2864,7 +2864,6 @@ figure.effect-zoe figcaption a:hover {
 
 .sell-contact a {
 
-    background: #017cba;
 
     padding: 18px 35px;
 
@@ -6552,6 +6551,10 @@ pre.presst {
 .padding-md{
     padding:20px;
 }
+
+.padding-md h5 {
+    line-height: 2.2em;
+}
 #latest-news {
     background-color: #F8F8F8;
     padding-top:120px;
@@ -6642,4 +6645,16 @@ pre.presst {
     margin-left: -25px;
     position: absolute;
     width: 50px;
+}
+
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.element {
+  .center-block();
 }

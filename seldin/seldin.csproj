@@ -275,6 +275,9 @@
     <Content Include="Assets\images1\women-agent-2.jpg" />
     <Content Include="Assets\images1\women-agent.png" />
     <Content Include="Assets\images\1.jpg" />
+    <Content Include="Assets\images\play1.svg" />
+    <Content Include="Assets\images\play.svg" />
+    <Content Include="Assets\images\YouTube.svg" />
     <Content Include="Assets\images\2.jpg" />
     <Content Include="Assets\images\3.jpg" />
     <Content Include="Assets\images\apartment-images\1-1.JPG" />
