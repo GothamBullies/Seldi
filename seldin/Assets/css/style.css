@@ -6642,6 +6642,9 @@ pre.presst {
     left:0;
     margin-left:0;
 }
+.view-apamartment-detail .view-detail .col-md-6, .view-apamartment-detail .view-detail {
+    height: auto;
+}
 
 /*Hide and Show Logo*/
 .sticky .container .row .col-lg-12 .main-nav a img {

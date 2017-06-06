@@ -159,7 +159,7 @@
 <section class="who-we-are view-apamartment-detail fadeInRight">
     <div class="container-fluid padding-fix">
         <div class="row">
-            <div class="col-md-6 padding-fix who-we-are-left">
+            <div class="col-md-6 padding-fix who-we-are-left view-detail">
                 <div class="who-we-are-content text-left">
                     <h2 class="text-left">Contact Details</h2>
                     <br />
@@ -182,15 +182,15 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 padding-fix who-we-are-right" style="background-image:url(@Model.Image.ElementAt(0))"></div>
+            <div class="col-md-6 padding-fix who-we-are-right" style="background-image:url(@Model.Image.ElementAt(0)); background-size: cover;"></div>
         </div>
     </div>
 </section>
 <section class="who-we-are view-apamartment-detail fadeInLeft">
     <div class="container-fluid padding-fix">
         <div class="row">
-            <div class="col-md-6 padding-fix who-we-are-left" style="background-image:url(@Model.Image.ElementAt(1))"></div>
-            <div class="col-md-6 padding-fix who-we-are-right" style="background-image:none;">
+            <div class="col-md-6 padding-fix who-we-are-left" style="background-image:url(@Model.Image.ElementAt(1)); background-size: cover;"></div>
+            <div class="col-md-6 padding-fix who-we-are-right view-detail" style="background-image:none;">
                 <div class="who-we-are-content text-left">
                     <div class="row">
                         <div class="col-md-6">
@@ -202,6 +202,8 @@
                                     <p><i class="fa fa-check"></i>&nbsp;@item</p>
                                 }
                             </div>
+                            <br />
+                            <br />
                         </div>
                         <div class="col-md-6">
                             <h2 class="text-left">Community</h2>
