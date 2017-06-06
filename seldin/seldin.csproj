@@ -474,6 +474,7 @@
     <Content Include="Views\Shared\_Apartment.cshtml" />
     <Content Include="Views\Apartment\ViewApartment.cshtml" />
     <Content Include="Views\Associates\Index.cshtml" />
+    <Content Include="Views\Home\Index1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
