@@ -1,0 +1,303 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    ViewBag.IsHomePage = true;
+}
+
+<!-- =========================
+
+   Intro Carousel
+
+============================== -->
+
+<section class="intro-carousel wow fadeIn">
+
+    <div class="container-fluid padding-fix">
+
+        <div id="intro-carousel-inner" class="carousel slide carousel-fade" data-ride="carousel">
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="~/Assets/images/1.jpg" alt="Second slide" />
+                </div>
+
+                <div class="item">
+                    <img src="~/Assets/images/2.jpg" alt="Third slide" />
+                </div>
+
+                <div class="item">
+                    <img src="~/Assets/images/living-room--apartment.jpg" alt="Fourth slide" />
+                </div>
+
+                <div class="item">
+                    <img src="~/Assets/images/3.jpg" alt="Fifth slide" />
+                </div>
+
+            </div>
+
+            <a class="left carousel-control" href="#intro-carousel-inner" data-slide="prev"><span><i class="fa fa-angle-left"></i></span></a>
+
+            <a class="right carousel-control" href="#intro-carousel-inner" data-slide="next"><span><i class="fa fa-angle-right"></i></span></a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="nearby-place bg-blue">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <div class="nearby">
+                    <h1 class="section-heading wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0s; animation-name: fadeInUp;">WHO WE ARE</h1>                  
+                </div>
+            </div>
+
+        </div>
+
+        <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0s; animation-name: fadeInUp;">Founded by Ben I. Seldin in 1923, the firm began as a one-man insurance company in Council Bluffs, Iowa. In the years since its inception, Seldin Company has emerged as a leader in home building, diversified property development, and asset management, creating housing for a wide range of clientele. To see more about Seldin's notable history, watch our video here.</p>
+
+    </div>
+    <div class="padding-bottom"></div>
+</section>
+
+
+<!-- =========================
+
+    Property Details
+
+============================== -->
+
+<section class="property-details" id="contact-agent">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+
+                <div class="property-detail">
+
+                    <h2>Who we are</h2>
+
+                    <div id="content">
+
+                        <!-- Tabs Nav -->
+
+                        <ul id="tabs" class="" data-tabs="tabs">                        
+
+                            <li class="active"><a href="#HISTORY" data-toggle="tab">HISTORY</a></li>
+
+                            <li><a href="#SERVICES" data-toggle="tab">SERVICES</a></li>
+
+                            <li><a href="#ABOUT" data-toggle="tab">ABOUT</a></li>
+
+                        </ul>
+
+
+
+                        <!-- Tabs Content -->
+
+                        <div id="my-tab-content" class="tab-content">
+
+                            <div class="tab-pane active" id="HISTORY">
+
+                                <p style="text-align:justify;">Founded by Ben I. Seldin in 1923, the firm began as a one-man insurance company in Council Bluffs, Iowa. In the years since its inception, Seldin Company has emerged as a leader in home building, diversified property development, and asset management, creating housing for a wide range of clientele. <br />
+                                    To see more about Seldin's notable history, watch our video <a href="">here</a>.
+                                    
+                                </p>
+                                                               
+                            </div><!-- End tabe-pane -->
+
+                            <div class="tab-pane" id="SERVICES">
+                              <br /><br />
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                                        </ol>
+
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner">
+                                            <div class="item active">
+                                                <h3>Financial Expertise & Services</h3>
+                                                <p style="text-align:justify;">We believe a collaborative and high touch approach is the most effective investment strategy. We rely on a person-centric model that allows our clients to place their full trust in us. Our successes are a direct result of the positive relationships we cultivate with our clients and associates.</p>
+                                            </div>
+
+                                            <div class="item">
+                                                <h3>Development & Consulting</h3>
+                                                <p style="text-align:justify;">From concept to construction to the lease-up phase, Seldin Company relies on over 90 years of expertise in multifamily development projects to provide development and consulting services.</p>
+                                            </div>
+
+                                            <div class="item">
+                                                <h3>Maintenance & Capital Improvements</h3>
+                                                <p style="text-align:justify;">Prompt response to requests is our responsibility; our client reviews consistently score among the highest in the industry. Seldin Company provides our residents with the best maintenance services.</p>
+                                            </div>
+
+                                            <div class="item">
+                                                <h3>Branding & Marketing Solutions</h3>
+                                                <p style="text-align:justify;">Equipped with extensive knowledge and creative talent, Seldin Company’s marketing team provides hands on, best-in-class services for a fraction of the cost of a marketing agency.</p>
+                                            </div>
+
+                                            <div class="item">
+                                                <h3>Property Management</h3>
+                                                <p style="text-align:justify;">Seldin Company provides quality management for apartment communities throughout the United States. We manage a variety of properties, from luxury apartments to HUD assisted and Housing Tax Credit communities. We are committed to providing quality and affordable senior living.</p>
+                                            </div>
+
+                                        </div>
+
+                                        <!-- Left and right controls -->
+                                        @*<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>*@
+                                    </div>
+                                     
+                            </div><!-- End tabe-pane -->
+
+
+
+                            <div class="tab-pane " id="ABOUT">
+
+                                <p style="text-align:justify;">
+                                    Seldin Company is an award-winning, multifamily management organization headquartered in Omaha, Nebraska. We manage and lease over 17,000 apartment homes across eight states, focusing on innovative, locally integrated projects that promote sustainability and community growth. As an industry leader with nearly a century of experience, our company is constantly evolving to meet the changing needs of our field.
+                                    <br />
+                                    Our mission is to preserve and nurture our presence in the community by providing quality comprehensive real estate and property asset management services in an ethical and professional manner.
+                                </p>
+
+                            </div><!-- End tabe-pane -->
+
+
+                        </div><!-- End Tab Content -->
+
+                    </div>
+
+                </div><!-- end .property-details -->
+
+            </div><!-- end .col-md-6 -->
+
+
+
+            <div class="col-md-6 property-pic wow fadeInUp" data-wow-delay="0.4s">
+
+                <img src="~/Assets/images1/property-details-pic.jpg" class="img-responsive" alt="">
+
+            </div><!-- end .col-md-6 -->
+
+
+
+        </div><!-- end .row -->
+
+    </div><!-- end .container-fluid -->
+
+</section><!-- end .property-details section -->
+
+
+
+
+<!-- =========================
+
+    Careers
+
+============================== -->
+
+
+<section class="who-we-are" id="careers" style="background-color:#FFFFFF;">
+
+    <div class="container-fluid padding-fix">
+
+        <div class="row">
+
+            <div class="col-md-6 padding-fix who-we-are-left">
+
+                <div class="who-we-are-content padding-md">
+
+                    <span></span>
+
+                    <h2>OPENINGS</h2>
+
+                    <p>Seldin Organization is growing fast. When you join our team, you're more than an associate — you're a part of our success. To be a part of our growing organization, click "Current Openings" and find the position that's right for you.</p>
+
+                    <a href="#" class="who-we-are-btn">Current Openings</a>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6 padding-fix who-we-are-right"></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="benefits" style="background-color:#FFFFFF;">
+
+    <div class="container-fluid padding-fix">
+
+        <div class="row">
+
+            <div class="col-md-6 padding-fix benefits-right"></div>
+
+            <div class="col-md-6 padding-fix benefits-left">
+
+                <div class="who-we-are-content padding-md">
+
+                    <h2>BENEFITS</h2>
+
+                    <p>Seldin Company offers competitive health and retirement benefits packages carefully designed to provide comprehensive support.</p>
+
+                    <div class="row">
+                        <div class="col-md-6 text-left padding-md">
+
+                            <h5><i class="fa fa-check"></i> Health, Dental & Vision Insurance</h5>
+                            <h5><i class="fa fa-check"></i> Health Savings Account (HSA)</h5>
+                            <h5><i class="fa fa-check"></i> Flexible Spending Plans (FSA)</h5>
+                            <h5><i class="fa fa-check"></i> 401(K) with Employer Match</h5>
+                            <h5><i class="fa fa-check"></i> Paid Holidays & Time Off</h5>
+                            <h5><i class="fa fa-check"></i> Life Insurance</h5>
+
+                        </div>
+
+                        <div class="col-md-6 text-left padding-md"">
+
+                            <h5><i class="fa fa-check"></i> Long-Term Disability Insurance</h5>
+                            <h5><i class="fa fa-check"></i> Maternity Leave</h5>
+                            <h5><i class="fa fa-check"></i> Paid Volunteer Time</h5>
+                            <h5><i class="fa fa-check"></i> Wellness Program</h5>
+                            <h5><i class="fa fa-check"></i> Employee Assistance Program</h5>
+                            <h5><i class="fa fa-check"></i> Fitness Reimbursement Plan</h5>
+
+                        </div>
+                     </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+
+    End Careers
+
+============================== -->

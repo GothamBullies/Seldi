@@ -129,7 +129,7 @@
 
                         <div class="collapse navbar-collapse main-nav" id="navbar-collapse">
 
-                            @*<a class="pull-left" id="nav-logo" href="/"><img src="/Assets/images/seldin_logo.png" alt="Logo"></a>*@
+                            <a class="pull-left" id="nav-logo" href="/"><img src="/Assets/images/seldin_logo.png" alt="Logo" style="visibility: hidden"></a>
 
                             <ul class="nav navbar-nav main-menu">
 
@@ -339,7 +339,7 @@
 
         pageWindow.scroll(function () {           
             navbar.toggleClass('sticky', pageWindow.scrollTop() > topElement);
-            $('#nav-logo').removeClass('hide');
+            
         });
 
     </script>

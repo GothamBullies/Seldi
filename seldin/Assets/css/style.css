@@ -6643,3 +6643,9 @@ pre.presst {
     position: absolute;
     width: 50px;
 }
+
+/*Hide and Show Logo*/
+.sticky .container .row .col-lg-12 .main-nav a img {
+    visibility: visible !important;
+}
+/*End Hide and Show Logo*/
