@@ -129,13 +129,15 @@
 
                         <div class="collapse navbar-collapse main-nav" id="navbar-collapse">
 
+                            @*<a class="pull-left" id="nav-logo" href="/"><img src="/Assets/images/seldin_logo.png" alt="Logo"></a>*@
+
                             <ul class="nav navbar-nav main-menu">
 
-                                <li><a href="@menuUrlPrefix#contact-agent">Company</a></li>
-
-                                <li><a href="@menuUrlPrefix#associates">Associates</a></li>
+                                <li><a href="@menuUrlPrefix#contact-agent">Company</a></li>                              
 
                                 <li><a href="@menuUrlPrefix#careers">Careers</a></li>
+
+                                <li><a href="/Associates">Associates</a></li>
 
                                 <li><a href="/Apartment">Apartments</a></li>
 
@@ -333,9 +335,13 @@
             topElement = navbar.offset().top;
         console.log(topElement);
 
-        pageWindow.scroll(function () {
+
+
+        pageWindow.scroll(function () {           
             navbar.toggleClass('sticky', pageWindow.scrollTop() > topElement);
+            $('#nav-logo').removeClass('hide');
         });
+
     </script>
 </body>
 </html>

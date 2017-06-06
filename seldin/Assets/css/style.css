@@ -6608,3 +6608,38 @@ pre.presst {
     font-weight:bold;
     font-size:30px;
 }
+
+.padding-bottom {
+    padding-bottom: 90px;
+}
+.bg-blue {
+    background: #017cba;
+    color: #fff;
+
+}
+.bg-blue h1 {
+    color:#fff
+}
+
+.bg-blue .section-heading::before {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -75px;
+    position: absolute;
+    width: 150px;
+}
+
+.bg-blue .section-heading::after {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-bottom: 8px;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
+}
