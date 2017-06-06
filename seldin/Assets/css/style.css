@@ -6067,7 +6067,7 @@ section .team {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 201;
+    z-index: 10000;
 }
 
 .map-container {
@@ -6180,7 +6180,6 @@ section .team {
     -moz-border-radius: 0 0 4px 4px;
     -webkit-border-radius: 0 0 4px 4px;
     border-radius: 0 0 4px 4px;
-    padding:0 50px;
 }
 
 .c-form-1-top {
@@ -6578,37 +6577,6 @@ pre.presst {
 .text-justify {
     text-align: justify !important;
 }
-
-.ap-banner.intro-carousel .carousel-inner:after{
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0,0,0,0.5);
-}
-.ap-banner.intro-carousel .carousel-inner {
-    height: 133px;
-}
-.ap-banner.intro-carousel .carousel-control {
-    top: 60%;
-}
-.ap-banner.intro-carousel .carousel-inner .item img {
-    position: absolute;
-    top: -230px;
-}
-.ap-name {
-    color: #FFFFFF;
-    position: absolute;
-    z-index:1;
-    padding-left:200px;
-    padding-top:50px;
-    font-weight:bold;
-    font-size:30px;
-}
-
 .padding-bottom {
     padding-bottom: 90px;
 }
@@ -6642,4 +6610,24 @@ pre.presst {
     margin-left: -25px;
     position: absolute;
     width: 50px;
+}
+
+.ap-banner{
+    margin-top:20px;
+}
+.apartment-detail .well {
+    min-height: 400px;
+    background-color:#FFFFFF;
+}
+.apartment-detail .well h2 {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 58px;
+    margin-top: 5px;
+    position: relative;
+    padding-bottom: 15px;
+}
+.view-apamartment-detail h2:after{
+    left:0;
+    margin-left:0;
 }

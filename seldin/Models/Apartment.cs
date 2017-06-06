@@ -21,6 +21,8 @@ namespace seldin.Models
         public string ImageFileName { get; set; }
         public string CoverImageFileName { get; set; }
         public List<string> Image { get; set; }
+        public List<string> Amenities { get; set; }
+        public List<string> Community { get; set; }
 
         public Category Category { get; set; }
 
@@ -54,8 +56,24 @@ namespace seldin.Models
                         $"{_apartmentImagesFolder}1-4.jpg",
                         $"{_apartmentImagesFolder}1-5.jpg",
                         $"{_apartmentImagesFolder}1-6.jpg",
+                    },
+                    Amenities = new List<string>()
+                    {
+                        "In-Unit Laundry",
+                        "Fully Equipped Kitchens",
+                        "Some Utilities Paid",
+                        "Walk-In Closet(s)",
+                        "We Love Pets!",
+                        "Accepts Online Payments",
+                    },
+                    Community = new List<string>()
+                    {
+                        "Community Room",
+                        "Rooftop Patio",
+                        "Garden",
+                        "Near Public Transportation",
+                        "Controlled Access",
                     }
-
                 },
                 new Apartment()
                 {
@@ -76,6 +94,23 @@ namespace seldin.Models
                         $"{_apartmentImagesFolder}2-1.jpg",
                         $"{_apartmentImagesFolder}2-2.jpg",
                         $"{_apartmentImagesFolder}2-3.jpg"
+                    },
+                    Amenities = new List<string>()
+                    {
+                        "In-Unit Laundry",
+                        "Fully Equipped Kitchens",
+                        "Some Utilities Paid",
+                        "Walk-In Closet(s)",
+                        "We Love Pets!",
+                        "Accepts Online Payments",
+                    },
+                    Community = new List<string>()
+                    {
+                        "Community Room",
+                        "Rooftop Patio",
+                        "Garden",
+                        "Near Public Transportation",
+                        "Controlled Access",
                     }
                 },
                 new Apartment()
@@ -99,6 +134,23 @@ namespace seldin.Models
                         $"{_apartmentImagesFolder}3-3.jpg",
                         $"{_apartmentImagesFolder}3-4.jpg",
                         $"{_apartmentImagesFolder}3-5.jpg"
+                    },
+                    Amenities = new List<string>()
+                    {
+                        "In-Unit Laundry",
+                        "Fully Equipped Kitchens",
+                        "Some Utilities Paid",
+                        "Walk-In Closet(s)",
+                        "We Love Pets!",
+                        "Accepts Online Payments",
+                    },
+                    Community = new List<string>()
+                    {
+                        "Community Room",
+                        "Rooftop Patio",
+                        "Garden",
+                        "Near Public Transportation",
+                        "Controlled Access",
                     }
                 }
             };
